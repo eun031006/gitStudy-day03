@@ -1,1 +1,10 @@
 github로 협업하기
+  (팀장)내 원격 repository에 다른 팀원들이 접근 가능하게 하기
+    Settings - Collaborators - Add people - 이메일 입력
+
+  (팀원)다른 원격 repository에 접근하기
+    1. 발송된 이메일 - Accept invitation
+    2. 원격 repository 다운로드 받기
+      git clone (주소->repository의 Code에서 복사 가능)
+    3. cd 명령어로 로컬 repository로 이동하기
+    4. 이후 add, commit, push 하면 팀장의 원격 repository에 적용된다.
